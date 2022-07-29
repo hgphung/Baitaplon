@@ -1,0 +1,337 @@
+@media screen and (max-width:376px) {
+
+    .block-mobile {
+        display: block !important;
+    }
+
+    .none-mobile{
+        display: none;
+    }
+
+    .header{
+        height: 65px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .header__img {
+        width: 217px;
+        height: 20px;
+    }
+
+    .header__img img{
+        width: 217px;
+    }
+    .header__list{
+        display: none;
+    }
+
+    .header__menu-icon {
+        display: block;
+    }
+
+    .body__text1{
+        width: 335px;
+        height: 172px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .body__text2{
+        width: 335px;
+        height: 81px;
+        line-height: 27px;
+        font-size: 16px;
+    }
+
+    .body__picture {
+        width: 375px;
+        
+    }
+
+    .body__picture img{
+        width: 375px;
+        
+    }
+
+    .body__picture-text{
+        margin-top: 14px;
+    }
+
+    .profile {
+        border-top: 2px solid #000;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 32px;
+    
+    }
+    
+    .profile__user {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    
+    .profile__user-information {
+        display: flex;
+
+    }
+    
+    .profile__user-avatar {
+        width: 57px;
+        height: 57px;
+    }
+
+    
+    .profile__user-avatar img {
+        border-radius: 50%;
+    
+    }
+    
+    .profile__user-content {
+        margin-left: 16px;
+    
+    }
+    
+    .profile__user-name {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    
+    }
+    
+    .profile__user-text {
+        margin-top: 8px;
+        font-family: 'SF Pro Text';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+    
+    }
+    
+    .profile__user-social {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 23px;
+
+    
+    
+    }
+    
+    .profile__user-social--facebook {
+        width: 112px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .profile__user-social--twitter {
+        width: 112px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .phone{
+        position: relative;
+    }
+
+    .phone img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+        
+    
+
+    .body__content-text1{
+        width: 335px;
+        margin-top: 23px;
+        font-size: 16px;
+    }
+     .body__content-text2{
+        max-width: 335px;
+        margin: 0 auto;
+        margin-top: 42px;
+        height: 31px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .body__content-text3{
+        max-width: 335px;
+        margin: 0 auto;
+        margin-top: 19px;
+        font-size: 16px;
+        height: 135px;
+    }
+
+    .body__picture-text{
+        max-width: 335px;
+        margin: 12px 20px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .body__content2-text1{
+        max-width: 335px;
+        margin: 0 auto;
+        margin-top: 42px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .body__content-share{
+        max-width: 335px;
+        margin: 0 auto;
+        margin-top: 42px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0.03em;
+    }
+
+    .social{
+        max-width: 335px;
+        margin: 0 auto;
+        margin-top: 9px;
+        height: 54px;
+    }
+
+    .body__content3-text {
+        max-width: 335px;
+        margin: 0 auto;
+        margin-top: 24px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.03em;
+    }
+
+    .body__content4 {
+        max-width: 335px;
+    }
+
+    .body__content4-content{
+        margin-top: 28px;
+    }
+    .body__content4-img img{
+
+    }
+
+    .body__content4-text{
+        width: 245px;
+        margin-left: 20px;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+    }
+
+    .body__wrap-list-eys {
+        width: 65px;
+    }
+
+    .body__wrap-title{
+        max-width: 274px;
+        margin: 0 auto;
+        margin-top: 62px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .body__list {
+        max-width: 335px;
+        grid-template-columns: auto;
+    }
+
+    .body__list-item{
+        max-width: 335px;
+        margin: 0 auto;
+    }
+
+    .body__list-text{
+        max-width: 262px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .body__content5{
+        max-width: 375px;
+        margin: 0 auto;
+        margin-top: 92px;
+        border: unset;
+        border-top: 9px solid #000 ; 
+        border-bottom: 2px solid #000;
+        text-align: center;
+
+    }
+
+    .body__content5-text1{
+        max-width: 249px;
+        margin: 0 auto;
+        margin-top: 42px; 
+        font-size: 29px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .body__content5-text2{
+        max-width: 306px;
+        margin: 0 auto;
+        margin-top: 14px;
+        font-size: 16px;
+    }
+
+    .body__content5-text3-list{
+        margin-top: 33px;
+    }
+
+    .body__content5-text3-input{
+        width: 283px;
+        margin-left: unset;
+    }
+
+    .body__content5-text3-list button{
+        width: 108px;
+        margin-right: 36px;
+
+
+    }
+    
+
+
+
+
+    .footer {
+        overflow-x: hidden;
+        margin-top: 52px;
+    }
+
+    .footer__list-item {
+        white-space: nowrap;
+    }
+
+    .footer__text{
+        width: 287px;
+        height: 71px;
+        font-size: 13px;
+    }
+
+}
